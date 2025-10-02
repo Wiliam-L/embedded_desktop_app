@@ -1,0 +1,15 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.card1 {
+  padding: 2em;
+  background-color: #888;
+}
+
+
+.read-the-docs {
+  color: #888;
+}

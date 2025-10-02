@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* ---------------------------------------------------- */
+/* CUSTOM SCROLLBAR STYLES (Chrome/Safari/Edge) */
+/* ---------------------------------------------------- */
+
+/* 1. Define el ancho de la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 8px; /* Ancho para scroll vertical */
+    height: 8px; /* Alto para scroll horizontal */
+}
+
+/* 2. Estilo del RIEL (track) de la barra */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Gris muy claro */
+    border-radius: 10px;
+}
+
+/* 3. Estilo del PULGAR (thumb) de la barra */
+::-webkit-scrollbar-thumb {
+    background-color: #abc3d3; /* Color: Azul-gris medio de tu paleta */
+    border-radius: 10px;
+    border: 2px solid #f1f1f1; /* Para hacerlo más delgado visualmente */
+}
+
+/* 4. Estilo del PULGAR al pasar el ratón (hover) */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #576675; /* Color: Azul-gris oscuro de tu paleta */
+}

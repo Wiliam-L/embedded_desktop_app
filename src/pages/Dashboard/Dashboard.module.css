@@ -1,0 +1,30 @@
+.containerDashboard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.containerIndicators{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.graphics{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: tomato;
+
+}
+
+.graphicsMounthly,
+.graphicsTopAgent,
+.graphicsTopUbications,
+.graphicsTime {
+    width: 100%;
+    height: 250px;
+    background-color: turquoise;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

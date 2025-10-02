@@ -1,0 +1,60 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ededed;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+    width: calc(33.33% - 1rem);
+    height: auto;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.cardGeneral{ border-left: 3px solid #349ccc; }
+.cardCollectedMonthly{ border-left: 3px solid green; }
+.cardPendingFines{ border-left: 3px solid red; }
+
+.cardHeader{
+
+}
+
+.cardTitle{
+    color: #2c3e50;
+    font-size: 24px;
+
+}
+
+.cardBody{
+
+}
+
+.cardItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.itemLabel{
+    color: #6B7280;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.itemValue{
+    font-size: 18px;
+    font-weight: 500;
+}
+.valueGeneral{ color: #349ccc;}
+.valueMonthly{ color: green;}
+.valuePending{ color: red}
+
+
+.cardFooter{
+    color: #6B7280;
+    font-size: 12px;
+}
+
+
